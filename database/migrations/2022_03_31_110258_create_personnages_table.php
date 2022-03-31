@@ -15,19 +15,19 @@ return new class extends Migration
     {
         Schema::create('personnages', function (Blueprint $table) {
             $table->id();
-            $table->string('Nom');
-            $table->string('Prenom');
-            $table->string('Image');
-            $table->integer('Vie');
-            $table->integer('Attaque');
-            $table->integer('Defense');
-            $table->integer('Vitesse');
-            $table->integer('TypeId');
-            $table->integer('Attaque1Id');
-            $table->integer('Attaque2Id');
-            $table->integer('Attaque3Id');
-            $table->integer('AttaqueSpecialId');
-            $table->integer('Sexe');
+            $table->string('nom');
+            $table->string('prenom');
+            $table->string('image');
+            $table->integer('vie');
+            $table->integer('attaque');
+            $table->integer('defense');
+            $table->integer('vitesse');
+            $table->integer('typeId');
+            $table->integer('attaque1_id');
+            $table->integer('attaque2_id');
+            $table->integer('attaque3_id');
+            $table->integer('attaque_special_id');
+            $table->integer('sexe');
             $table->timestamps();
         });
     }
