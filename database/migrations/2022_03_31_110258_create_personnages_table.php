@@ -22,7 +22,7 @@ return new class extends Migration
             $table->integer('attaque');
             $table->integer('defense');
             $table->integer('vitesse');
-            $table->integer('typeId');
+            $table->integer('type_id');
             $table->integer('attaque1_id');
             $table->integer('attaque2_id');
             $table->integer('attaque3_id');
